@@ -4,34 +4,40 @@
     border-radius: 10px;
     background: rgba(255,255,255,0.3);
 }
-.gradient-background {
-    background: linear-gradient(191deg, #0c356a, #0174be);
-    background-size: 400% 400%;
+.gradient-background{
+    background: linear-gradient(184deg, #3d3294, #8c46d4, #ff300e);
+    background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    -o-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:62% 0%}
-    50%{background-position:39% 100%}
-    100%{background-position:62% 0%}
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:62% 0%}
-    50%{background-position:39% 100%}
-    100%{background-position:62% 0%}
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:62% 0%}
-    50%{background-position:39% 100%}
-    100%{background-position:62% 0%}
+    0%{background-position:53% 0%}
+    50%{background-position:48% 100%}
+    100%{background-position:53% 0%}
 }
 .icon-square {
     width: 3rem;
     height: 3rem;
     border-radius: 0.75rem;
-    background-color: #001a79ae;
+    background-color: #FF5959;
 }
 #image:hover {  border:1px solid lightblue;  box-shadow: 0 0 10px lightblue;  -webkit-box-shadow: 0 0 10px lightblue;  -moz-box-shadow: 0 0 10px lightblue;  -o-box-shadow: 0 0 10px lightblue;  -ms-box-shadow: 0 0 10px lightblue;}
