@@ -32,6 +32,6 @@
     width: 3rem;
     height: 3rem;
     border-radius: 0.75rem;
-    background-color: EF4040;
+    background-color: #EF4040;
 }
 #image:hover {  border:1px solid lightblue;  box-shadow: 0 0 10px lightblue;  -webkit-box-shadow: 0 0 10px lightblue;  -moz-box-shadow: 0 0 10px lightblue;  -o-box-shadow: 0 0 10px lightblue;  -ms-box-shadow: 0 0 10px lightblue;}
