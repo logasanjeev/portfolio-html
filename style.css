@@ -4,29 +4,29 @@
     border-radius: 10px;
     background: rgba(255,255,255,0.3);
 }
-.gradient-background {
-    background: linear-gradient(191deg, #0c356a, #0174be);
-    background-size: 400% 400%;
+.gradient-background{
+    background: linear-gradient(347deg, #ffb600, #ff5c00, #ff4500);
+    background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:62% 0%}
-    50%{background-position:39% 100%}
-    100%{background-position:62% 0%}
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:62% 0%}
-    50%{background-position:39% 100%}
-    100%{background-position:62% 0%}
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:62% 0%}
-    50%{background-position:39% 100%}
-    100%{background-position:62% 0%}
+    0%{background-position:26% 0%}
+    50%{background-position:75% 100%}
+    100%{background-position:26% 0%}
 }
 .icon-square {
     width: 3rem;
